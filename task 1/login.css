@@ -1,0 +1,114 @@
+.body2{
+	background-color:white;
+	font-family: roboto;
+}
+.title{	
+	position: relative;
+	text-align: center;
+	font-size: 27px;
+	margin-top: 250px;
+	color: Black;
+
+}
+.input_field1{
+	width: 340px;
+	margin: auto;
+	border-bottom: thin solid Black;
+}
+.input_field2{
+	width: 340px;
+	margin: auto;
+	border-bottom: thin solid Black;
+}
+.input{
+	width: 320px;
+	color: Black;
+	font-size: 20px;
+	padding: 8px 10px 8px 10px; 
+	border-style: hidden;
+	background-color: transparent; 
+}
+.btnmain{
+	text-align: center;
+}
+.btn{
+	width: 240px;
+    color: white;
+    margin-top: 14px;
+    padding-top:5px;
+    padding-bottom:5px;  
+    background-color: red;
+    font-size: 20px;
+	border-style: hidden;
+	border-radius: 20px;
+}
+.footer{
+	margin-top: 100px;
+	margin-bottom: 50px;
+	bottom: 0;
+	width: 100%;
+}
+.Create{
+	text-align: center;
+	text-decoration:none; 
+	font-size: 15px;
+	color: black;
+}
+.Back_Page{
+	position: fixed;
+	display: block;
+	top: 0;
+	margin-top: 16px;
+}
+.Back_Page_Button{
+	background-color: white;
+	border-style: hidden;
+}
+.Back_Button_Text{
+	color: black;
+	text-decoration: none;
+}
+.message{
+	display: block;
+	color: red;
+	font-size: 27px;
+	text-align: center;
+	margin-top: 28px;
+	margin-bottom: -50px;
+}
+
+@media only screen and (max-width: 530px) {	
+	.title{
+		text-align: center;
+		font-size: 23px;
+		margin-top: 250px;
+		color: black;
+	}
+	.input_field1{
+		width: 260px;
+		margin: auto;
+		border-bottom: thin solid black;
+	}
+	
+	.input_field2{
+		width: 260px;
+		margin: auto;
+		border-bottom: thin solid black;
+	}
+	.input{
+		width: 260px;
+		color: black;
+		font-size: 80%;
+		padding:12px; 
+		border-style: hidden;
+		background-color: transparent; 
+	}
+	.message{
+		display: block;
+		color: red;
+		font-size: 22px;
+		text-align: center;
+		margin-top: 28px;
+		margin-bottom: -50px;
+	}
+}

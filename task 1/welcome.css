@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    font-family: roboto;
+    background: url(./images/assassins_creed_unity_logo_high_resolution-wallpaper-1920x1080.jpg) no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+
+.logout{
+    display: inline-block;
+    text-align: center;
+}
+.logout a{
+    position: absolute;
+    right: 0;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-right: 3vh;
+    margin-top: 3vh;
+    background-color: red;
+    border-radius: 10px;
+}
+.main{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-bottom: 73vh;
+    color: #122c45;
+}
+.main span{
+    color: red;
+}
