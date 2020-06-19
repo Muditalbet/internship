@@ -1,0 +1,17 @@
+.MainContent{
+    margin-top: 65px;
+    display: block;
+    text-align: center;
+}
+
+.Heading{
+    font-size: 80px;
+    margin-top: 130px;
+    text-decoration: none;
+}
+
+.Tagline{
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: -40px;
+}

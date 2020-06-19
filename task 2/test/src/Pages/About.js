@@ -1,11 +1,14 @@
 import React from 'react';
+import './CSS-Files/About.css'
 
 function About() {
     return (
         <React.Fragment>
-        <h1>About</h1>
-        <p>this is an test.</p>
-    </React.Fragment>
+            <div className="MainContent">
+                <h1 className="Heading">About</h1>
+                <p className="Tagline">This is an test.</p>
+            </div>
+        </React.Fragment>
     )
 }
 
