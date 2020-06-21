@@ -3,12 +3,26 @@ import './CSS-Files/About.css'
 
 function About() {
     return (
-        <React.Fragment>
-            <div className="MainContent">
-                <h1 className="Heading">About</h1>
-                <p className="Tagline">This is an test.</p>
+        <div className='MainAbout'>
+            <div className='heading'>Founders:</div>
+            <div className='foundersAbout'>
+                <div className='block'>
+                    <div className='image'></div>
+                    <div className='text'>Lorem ipsum</div>
+                    <div className='about'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                </div>
+                <div className='block'>
+                    <div className='image'></div>
+                    <div className='text'>Lorem ipsum</div>
+                    <div className='about'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                </div>
+                <div className='block'>
+                    <div className='image'></div>
+                    <div className='text'>Lorem ipsum</div>
+                    <div className='about'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                </div>
             </div>
-        </React.Fragment>
+        </div>
     )
 }
 

@@ -1,17 +1,41 @@
-.MainContent{
-    margin-top: 65px;
-    display: block;
-    text-align: center;
-}
-
-.Heading{
-    font-size: 80px;
+.MainAbout{
     margin-top: 130px;
-    text-decoration: none;
 }
 
-.Tagline{
-    font-size: 20px;
-    text-decoration: none;
-    margin-top: -40px;
+.MainAbout .heading{
+    font-size: 80px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    border-bottom: thin solid black;
+    width: fit-content;
+}
+.foundersAbout{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.block{
+    text-align: center;
+    flex: 1;
+    padding: 30px;
+}
+.image{
+    background: no-repeat center;
+    background-size: cover;
+    margin: auto;
+    background-image: url("dummy.jpg");
+    border-radius: 50%;
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+.text{
+    margin-top: 10px;
+}
+
+.about{
+    margin-top: 50px;
 }

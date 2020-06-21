@@ -6,12 +6,27 @@
 
 .Heading{
     font-size: 80px;
+    margin: auto;
     margin-top: 130px;
     text-decoration: none;
+    font-weight: 500;
+    width: fit-content;
+    border-bottom: thin solid black;
+    padding: 5px 10px;
 }
 
 .Tagline{
     font-size: 20px;
     text-decoration: none;
-    margin-top: -40px;
+}
+.MainContent .solutions{
+    margin: auto;
+    text-align: left;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.MainContent .solutions p{
+    font-size: medium;
+    padding: 0 70px;
 }

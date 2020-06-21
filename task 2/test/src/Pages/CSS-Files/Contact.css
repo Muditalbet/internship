@@ -1,0 +1,59 @@
+.MainContent{
+    margin-top: 130px;
+    display: block;
+    text-align: center;
+}
+
+.contact-section h1{
+    font-size: 80px;
+    margin: auto;
+    margin-bottom: 40px;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: thin solid black;
+    width: fit-content;
+}
+.contact-section p a{
+    text-decoration: none;
+    color: black;
+    border: thin solid black ;
+    padding: 10px 16px;
+    font-size: 20px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.contact-section p a:hover{
+    background-color: black;
+    color: white;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: thin solid black;
+    padding: 20px 40px;
+}
+textarea.contact-form-text{
+    resize: none;
+    height: 150px;
+}
+.contact-form-btn{
+    float: right;
+    border: thin solid black;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.contact-form-btn:hover{
+    color: white;
+    background-color: black;
+}
