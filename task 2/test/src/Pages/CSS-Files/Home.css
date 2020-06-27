@@ -1,32 +1,90 @@
-.MainContent{
-    margin-top: 65px;
-    display: block;
-    text-align: center;
+.complete{
+    margin: 0;
+    margin-top: 70px;
 }
-
-.Heading{
-    font-size: 80px;
-    margin: auto;
-    margin-top: 130px;
-    text-decoration: none;
-    font-weight: 500;
+.complete .heading{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 20vh 0;
+}
+.heading img{
+    display: inline;
+    flex: 30%;
+    margin-left: 100px;
+}
+.heading-content{
+    flex: 70%;
     width: fit-content;
-    border-bottom: thin solid black;
-    padding: 5px 10px;
-}
-
-.Tagline{
-    font-size: 20px;
-    text-decoration: none;
-}
-.MainContent .solutions{
     margin: auto;
-    text-align: left;
-    padding: 30px;
-    font-size: 30px;
+}
+.Services{
+    margin: auto;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    padding: 29vh 0;
+    padding-bottom: 15vh;
+}
+.Services img{
+    height: 350px;
+    width: auto;
+    margin-left: 300px;
+    margin-right: 80px;
+}
+.services-content{
+    margin: auto;
+    margin-left: 0;
+}
+.services-content p{
+    color: rgba(0, 0, 0, 0.705)
 }
 
-.MainContent .solutions p{
-    font-size: medium;
-    padding: 0 70px;
+.about{
+    margin: auto;
+    margin-bottom: -80px;
+    width: fit-content;
+    display: flex;
+    background-color: white;
+    padding-bottom: 30vh;
+}
+.about img{
+    height: 350px;
+    width: auto;
+}
+.about-content{
+    max-width: 40%;
+    margin: auto;
+}
+.about-content p{
+    padding-bottom: 30px;
+    color: rgba(0, 0, 0, 0.705);
+}
+.about .link{
+    text-decoration: none;
+    padding: 8px 16px;
+    color: black;
+    border: thin solid #56e0ed;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.about .link:hover{
+    background-color: #56e0ed;
+    color: white;
+}
+.complete h1{
+    font-weight: 400;
+    font-size: 50px;
+}
+.complete .underline{
+    height: 8px;
+    width: 60px;
+    margin-top: -20px;
+    border-radius: 10px;
+    background-color: black;
+}
+.complete .services-content .count{
+    font-size: 30px;
+    font-weight: 400;
+    color: #ff4f5a;
+    padding-top: 20px;
 }

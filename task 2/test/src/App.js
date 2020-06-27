@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Navbar from './components/Header'
+import Footer from './components/Footer'
 import './index.css'
 import './Pages/CSS-Files/feedback.css'
 
@@ -49,6 +50,7 @@ class App extends Component{
               <Blog feedbacks={this.state.feedbacks}/>
             </React.Fragment>
           )}/>
+          <Footer/>
         </div>
       </Router>
     )

@@ -47,6 +47,7 @@ textarea.contact-form-text{
 }
 .contact-form-btn{
     float: right;
+    background-color: transparent;
     border: thin solid black;
     padding: 12px 50px;
     border-radius: 20px;
@@ -56,4 +57,7 @@ textarea.contact-form-text{
 .contact-form-btn:hover{
     color: white;
     background-color: black;
+}
+.contact-section{
+    margin-bottom: 80px;
 }
