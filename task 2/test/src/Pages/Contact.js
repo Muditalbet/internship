@@ -8,7 +8,7 @@ class contact extends Component{
             <div className="MainContent">
                 <div className="contact-section">    
                     <h1>Contact us</h1>
-                    <p><a href="Some@gmail.com">Mail Us</a></p>
+                    <p><a href="mailto:muditmangtani@gmail.com">Mail Us</a></p>
                     <form className="contact-form">
                         <input type="text" placeholder="Your Name..." className="contact-form-text"></input>
                         <input type="text" placeholder="Email" className="contact-form-text"></input>

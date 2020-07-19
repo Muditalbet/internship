@@ -1,0 +1,62 @@
+.overview-body{
+    margin: auto;
+    margin-top: 200px;
+    width: 80%;
+}
+.overview-body .blocks{
+    display: flex;
+    padding: 30px 0;
+    width: 80%;
+    margin: auto;
+}
+.overview-body .box{
+    text-decoration: none;
+    text-align: center;
+    flex: 1;
+    padding: 10px 0;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+}
+.overview-body .box a{
+    text-decoration: none;
+    color: black;
+}
+.content .progress{
+    text-align: center;
+    display: flex;
+    margin: auto;
+}
+.content .progress .text{
+    display: inline;
+    width: 30%;
+    font-size: 30px;
+}
+.content .progress .bar{
+    display: inline-block;
+    margin: auto;
+    width: 70%;
+    height: 10px;
+    border-radius: 10px;
+    background-color: rgb(156, 156, 156);
+}
+.content .progress .bar div{
+    height: 10px;
+    background-color: black;
+    border-radius: 10px;
+    float: left;
+    width: 70%;
+}
+.content .about{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+.content .about h1{
+    font-weight: 500;
+    padding: 0 10px;
+    display: inline;
+    text-align: left;
+    margin: 20px auto;
+    border-bottom: thin solid black ;
+}

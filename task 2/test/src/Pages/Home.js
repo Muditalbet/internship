@@ -2,7 +2,6 @@ import React from 'react';
 import './CSS-Files/Home.css'
 import { Link } from 'react-router-dom'
 
-import logo from './CSS-Files/images/ezgif.com-gif-maker.gif'
 import gif from './CSS-Files/images/3323619.jpg'
 import logo2 from './CSS-Files/images/2480553.jpg'
 
@@ -10,7 +9,7 @@ function Home() {
     return (
         <div className="complete">
             <div className="heading">
-                <img src={logo}></img>
+                <img src={require('./CSS-Files/images/ezgif.com-gif-maker.gif')}></img>
                 <div className="heading-content">
                     <h1>Technology Stack</h1>
                     <div className="underline"></div>

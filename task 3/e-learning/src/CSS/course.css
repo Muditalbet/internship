@@ -1,0 +1,31 @@
+.course-body{
+    margin-top: 100px;
+    width: 100%;
+}
+.course-body .main{
+    display: flex;
+}
+.course-body .main .contentList{
+    flex: 1;
+    height: 87vh;
+    background-color: antiquewhite;
+    overflow: scroll;
+}
+.course-body .main .contentList ul li{
+    font-size: 24px;
+    padding: 20px 10px;
+    cursor: pointer;
+}
+.course-body .main .video{
+    flex: 4;
+    background-color: rgb(1, 141, 255);
+    margin: auto;
+    padding: 3.7% 10px;
+    text-align: center;
+    border: 20px solid grey;
+}
+.course-body .main .video img{
+    width: 80%;
+    height: auto;
+    margin: auto;
+}

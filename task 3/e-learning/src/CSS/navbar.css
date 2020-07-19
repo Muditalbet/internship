@@ -1,0 +1,44 @@
+.navbar {
+    margin: 0;
+    background-color: black;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+.navbar .logo{
+    display: inline;
+}
+
+.navbar .logo img{
+    height: 60px;
+    width: auto;
+    margin-top: 5px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.navbar .profile{
+    text-align: center;
+    display: inline;
+    color: white;
+    float: right;
+    margin: auto;
+    padding-right: 60px;
+    cursor: pointer;
+}
+.navbar .profile .image{
+    background: no-repeat center;
+    background-size: cover;
+    margin: auto;
+    margin-top: 5px;
+    background-image: url("../images/dummy.jpg");
+    border-radius: 50%;
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+.navbar .profile .text{
+    font-size: 24px;
+}
