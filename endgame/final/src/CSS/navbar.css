@@ -1,0 +1,82 @@
+.navbar-body{
+    background-color: #204051;
+    margin: 0;
+    width: 100%;
+    height: 60px;
+}
+.navbar-formatter{
+    max-width: 1150px;
+    margin: auto;
+}
+.navbar-body .logo{
+    height: 45px;
+    margin: 7px 0;
+    width: auto;
+    float: left;
+    margin-left: 30px;
+}
+.navbar-body #Popup{
+    width: fit-content;
+    float: right;
+    margin: 15px auto;
+    margin-right: 30px;
+    text-align: center;
+    color: white;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    cursor:pointer;
+}
+.navbar-body #Popup:hover{
+    opacity: 1;
+}
+#Popup .user{
+    height: 30px;
+    padding: 0 5px;
+}
+#Popup .down{
+    height: 15px;
+    margin-top: 8px;
+    padding: 0 3px;
+}
+#Popup span{
+    text-align: center;
+    height: fit-content;
+    font-size: 24px;
+    padding: 0 5px;
+}
+
+.popupWindow {
+    padding: 10px 20px;
+    position: absolute;
+    right: 115px;
+    top: 60px;
+    background-color: white;
+    transform: translate(-50%, 0%);
+    box-shadow: 0 6px 16px 0 gray;
+}
+
+.popupWindow .text{
+    color: black;
+    width: 160px;
+    font-size: 20px;
+    padding: 5px 0;
+    margin: 0;
+    text-align: left;
+    cursor: pointer;
+}
+.popupWindow .text:hover{
+    font-weight: 600;
+}
+.popupWindow .a{
+    text-align: center;
+    background-color: #84a9ac;
+    color: white;
+    padding: 5px 0;
+    box-shadow: 0 2px 4px 0 gray;
+}
+.popupWindow .line{
+    height: 1px;
+    background-color: #b3b0b0;
+}
+

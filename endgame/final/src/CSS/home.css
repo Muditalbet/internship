@@ -1,0 +1,68 @@
+.homeBody{
+    background: #e4e3e3;
+    width: 100%;
+}
+.heading{
+    background-color: white;
+}
+.heading .headingText{
+    max-width: 1090px;
+    margin: auto;
+}
+.heading h1{
+    margin: 0;
+    padding: 30px 0;
+    padding-bottom: 20px;
+}
+.homeMain{
+    max-width: 1090px;
+    padding-bottom: 80px;
+    margin: auto;
+}
+.homeMain .headingText h1{
+    color: #1b262c;
+    font-weight: 600;
+    font-size: 28px;
+}
+.show{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.cards{
+    background: white;
+    width: 340px;
+    margin: 0;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #1b262c;
+    overflow: hidden;
+    box-shadow: 0 6px 16px 0 gray;
+}
+.cards:hover{
+    box-shadow: 0 6px 10px 0 grey;
+}
+.one{
+    height: 170px;
+}
+.two{
+    margin: 0 35px;
+    margin-top: 20px;
+    height: 170px;
+}
+.three{
+    height: 170px;
+}
+.cards .card{
+    display: flex;
+}
+.card .text{
+    flex: 60%;
+    flex-wrap: wrap;
+    padding: 40px 15px;
+    font-size: 24px;
+}
+.card .image{
+    flex: 40%;
+}
+
