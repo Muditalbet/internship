@@ -1,0 +1,112 @@
+.courseBody{
+    margin: 0;
+    background-color: #e4e3e3;
+    width: 100%;
+    padding-bottom: 1px;
+}
+
+.courseBody .courseHeading{
+    background-color: #bbe1fa;
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+
+.courseHeading .Title{
+    flex: 80%;
+    margin-top: 10px;
+    padding: 20px 50px;
+}
+.Title span{
+    padding: 0;
+}
+.Title h1{
+    margin: 0;
+    margin-bottom: 30px;
+}
+.courseBody .University{
+    flex: 20%;
+    margin-top: 10px;
+    padding: 20px 0;
+}
+
+.aboutCourse{
+    margin: 20px 50px;
+}
+.enroll{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    font-size: 18px;
+}
+.enroll .enrollText{
+    background-color: #3b6978;
+    color: white;
+    padding: 8px 16px;
+    margin-right: 40px;
+    box-shadow: 0 3px 5px 0 grey;
+    text-decoration: none;
+}
+.enroll .enrollText:hover{
+    box-shadow: 0 3px 2px 0 grey;
+}
+.enroll .enrollSave{
+    color: #1b262c;
+    text-decoration: none;
+}
+.enrollSave img{
+    height: 30px;
+    padding: 5px 10px;
+    margin: auto;
+    margin-left: -20px;
+    vertical-align: middle;
+}
+.enroll .enrollSave:hover{
+    color: #3282b8;
+}
+
+.aboutCourse .about{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    color: #1b262c;
+    text-decoration: none;
+}
+.aboutCourse .about .aboutCourseText{
+    flex: 60%;
+    
+}
+.aboutCourse .about .courseBenifits{
+    flex: 35%;
+    margin: auto;
+    margin-left: 30px;
+}
+.courseBenifits .benifitsList{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+}
+.benifitsList .imageReference{
+    flex: 10%;
+    margin: auto;
+    text-align: center;
+}
+.imageReference img{
+    margin: auto;
+    height: 40px;
+    padding: 20px;
+    vertical-align: middle;
+    border: thin solid black;
+    border-radius: 10%;
+}
+.benifitsList .textReference{
+    flex: 50%;
+}
+.benifitsList .textReference h2{
+    margin-bottom: 0;
+}
+.benifitsList .textReference p{
+    margin-top: 0;
+    font-size: 18px;
+    opacity: 0.5;
+}

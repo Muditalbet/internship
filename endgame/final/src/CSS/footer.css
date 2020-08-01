@@ -1,0 +1,33 @@
+.footer{
+    position: relative;
+    margin: 0;
+    bottom: 0;
+    background-color: #1b262c;
+    color: #e4e3e3;
+}
+.footer .content{
+    display: flex;
+    max-width: 70%;
+    padding-bottom: 100px;
+    margin: auto;
+    height: 160px;
+}
+.footer .content .box{
+    margin: auto;
+    margin-top: 0;
+    max-width: fit-content;
+    flex: 1;
+}
+.footer .content h1{
+    font-weight: 500;
+}
+.footer .content a{
+    display: block;
+    color: #e4e3e3;
+    cursor: pointer;
+    font-weight: 400;
+    padding: 5px 10px;
+}
+.footer .content a:hover{
+    font-weight: 700;
+}

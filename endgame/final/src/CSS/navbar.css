@@ -55,6 +55,9 @@
     transform: translate(-50%, 0%);
     box-shadow: 0 6px 16px 0 gray;
 }
+.popupWindow:hover{
+    box-shadow: 0 0 10px 0 gray;
+}
 
 .popupWindow .text{
     color: black;

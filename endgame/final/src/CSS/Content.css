@@ -1,0 +1,35 @@
+.contentBody{
+    background-color: #e4e3e3;
+    margin: 0;
+    width: 100%;
+}
+.contentMain{
+    display: flex;
+    height: 600px;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.contentList{
+    flex-wrap: wrap;
+    flex: 5%;
+    margin-right: -10px;
+    font-size: 24px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.contentList ul li{
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+.player{
+    margin: auto;
+    flex: 95%;
+    max-width: 1200px;
+    width: 1000px;
+    height: auto;
+}
+.player .test{
+    margin: auto;
+}
